@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Left Panel Example</title>
+  <link href="index.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+  <div id="left-panel">
+    <ul class="text">
+      <li><a href="#" onclick="showContent('home')">Home</a></li>
+      <li><a href="#"  onclick="showContent('contact')">Contact</a></li>
+      <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <script src="index.js" integrity=""></script>
+    <div id="home" class="content-section">
+      <h2>Home</h2>
+      <p>Welcome to the home page!</p>
+    </div>
+
+    <div id="contact" class="content-section" style="display: none;">
+      <h2>Contact Information</h2>
+      <p>Here is our contact information:</p>
+      <p>Email: contact@example.com</p>
+      <p>Phone: 123-456-7890</p>
+    </div>
+
+    <div id="guide" class="content-section" style="display: none;">
+      <h2>Guide</h2>
+      <p>Here is a helpful guide:</p>
+      <ul>
+        <li>Step 1: Do this.</li>
+        <li>Step 2: Do that.</li>
+        <li>Step 3: Complete the task.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

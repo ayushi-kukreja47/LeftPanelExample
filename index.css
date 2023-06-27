@@ -1,0 +1,40 @@
+body {
+    display: flex;
+  }
+
+  #left-panel {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #151B54;
+    overflow-x: hidden;
+    padding: 20px;
+  }
+
+  a{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#fff;
+    display: block;
+  }
+  .text{
+    list-style-type: none;
+  }
+
+  a:hover {
+    color:gold;
+  }
+
+  #content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px;
+  }
+
+  #content p {
+    font-size: 18px;
+  }
